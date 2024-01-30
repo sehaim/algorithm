@@ -1,4 +1,4 @@
-package boj_1546.평균;
+package boj_1546_평균;
 import java.util.Scanner;
 
 public class Main {

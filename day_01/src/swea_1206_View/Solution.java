@@ -1,4 +1,4 @@
-package swea_1206.View;
+package swea_1206_View;
 import java.util.Scanner;
 
 public class Solution {
