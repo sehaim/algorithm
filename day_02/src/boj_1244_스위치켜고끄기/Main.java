@@ -13,9 +13,9 @@ public class Main {
 		}
 		
 		int tc = sc.nextInt();
-		int t = 1;
+		int t = 0;
 		
-		while(t<=tc) {
+		while(t<tc) {
 			int gender = sc.nextInt();
 			int M =sc.nextInt();
 			
@@ -24,31 +24,45 @@ public class Main {
 			} else if(gender == 2) {
 				arr = womanSwitch(M, arr);
 			}
-			
+			t++;
 		}
-		
-		System.out.println();
+
+		for(int i=0; i<arr.length; i++) {
+			System.out.print(arr[i]+" ");
+			for(int j=0; j<5; j++)
+				if(i+1 == j*20) {
+					System.out.println();
+				}
+		}
+		sc.close();
 	}
 	
 	public static int[] womanSwitch(int M, int[] arr) {
-		int num1 =0;
-		int num2 =0;
+		int lft = 1;
+		int rgt = 1;
 		M = M-1;
-		for(int i=0; i<arr.length; i++) {
-			if(i<=M && M+i<arr.length) {
-				if(arr[M-i] != arr[M+i]) {
-					num1 = M-i;
-					num2 = M+i;
+		if(arr[M] == 1) {
+			arr[M] = 0;
+		} else {
+			arr[M] = 1;
+		}
+		
+		for(int i=0; i<arr.length/2; i++) {
+			if(lft<=M && M+rgt<arr.length) {
+				if(arr[M-lft] == arr[M+rgt]) {
+					if(arr[M-lft] == 1) {
+						arr[M-lft] = 0;
+						arr[M+rgt] = 0;
+					} else {
+						arr[M-lft] = 1;
+						arr[M+rgt] = 1;
+					}
+				} else {
 					break;
 				}
 			}
-		}
-		for(int i=num1+1; i<num2; i++) {
-			if(arr[i] == 1) {
-				arr[i] = 0;
-			} else if(arr[i] == 0) {
-				arr[i] = 1;
-			}
+			lft++;
+			rgt++;
 		}
 		return arr;
 	}
