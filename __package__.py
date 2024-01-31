@@ -7,8 +7,8 @@ sys.stdin = open ('input.txt', 'r', encoding='UTF-8')
 '''
 첫줄에는 프로젝트 명               IM
 문제 개수 == 패키지 개수           2
-회사명_문제번호.문제이름            swea_1210.ladder1 
-                                  boj_1244.스위치켜고끄기
+회사명_문제번호.문제이름            swea_1210_ladder1 
+                                  boj_1244_스위치켜고끄기
 '''
 
 
