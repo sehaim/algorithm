@@ -35,6 +35,7 @@ public class Solution {
 			}
 			tc++;
 		}
+		
 		sc.close();
 	}
 }
