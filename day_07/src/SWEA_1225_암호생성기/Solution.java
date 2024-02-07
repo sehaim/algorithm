@@ -1,10 +1,10 @@
-package SWEA_1225_ì•”í˜¸ìƒì„±ê¸°;
+package SWEA_1225_¾ÏÈ£»ı¼º±â;
 
 import java.util.Scanner;
 
 public class Solution {
 	public static int[] pw = new int[8];
-	public static int pointer = -1;
+	public static int pointer;
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -14,19 +14,21 @@ public class Solution {
 			for(int i=0; i<pw.length; i++) {
 				pw[i] = sc.nextInt();
 			}
+			pointer = -1;
 			
 			int stop = 0;
 			int pointer2 = 0;
-			do {
+			while (stop == 0) {
 				for(int i=1; i<=5; i++) {
 					int bf = cycle(i);
 					if(isZero(bf)) {
 						pw[pointer] = 0;
 						pointer2 = pointer;
 						stop = 1;
+						break;
 					}
 				}
-			} while (stop == 0);
+			} 
 			
 			int[] newPW = swap(pointer2);
 			
