@@ -1,4 +1,4 @@
-package SWEA_7102_준홍이의카드놀이;
+package SWEA_7102_;
 
 import java.util.Scanner;
 
