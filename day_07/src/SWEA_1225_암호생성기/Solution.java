@@ -1,4 +1,4 @@
-package SWEA_1225_;
+package SWEA_1225_암호생성기;
 
 import java.util.Scanner;
 
