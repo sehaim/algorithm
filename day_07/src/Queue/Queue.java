@@ -26,7 +26,7 @@ public class Queue {
 	
 	public static void enQueue(int data) {
 		if (isFull()) {
-			System.out.println("µ¥ÀÌÅÍ¸¦ »ğÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("ë°ì´í„°ë¥¼ ì¶”ê°€í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 			return;
 		}
 		queue[++rear] = data;
@@ -34,7 +34,7 @@ public class Queue {
 	
 	public static int deQueue() {
 		if(isEmpty()) {
-			System.out.println("´õ ÀÌ»ó Ãâ·ÂÇÒ µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ë” ì´ìƒ ë‚¨ì•„ìˆëŠ” ë°ì´í„°ê°€ ì—†ìŠµë‹ˆë‹¤.");
 			return -1;
 		}
 		return queue[++front];
@@ -42,7 +42,7 @@ public class Queue {
 	
 	public static int Qpeek() {
 		if(isEmpty()) {
-			System.out.println("´õ ÀÌ»ó Ãâ·ÂÇÒ µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ë” ì´ìƒ ë‚¨ì•„ìˆëŠ” ë°ì´í„°ê°€ ì—†ìŠµë‹ˆë‹¤.");
 			return -1;
 		}
 		return queue[front + 1];

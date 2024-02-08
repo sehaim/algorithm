@@ -1,4 +1,4 @@
-package SWEA_7102_ÁØÈ«ÀÌÀÇÄ«µå³îÀÌ;
+package SWEA_7102_ì¤€í™ì´ì˜ì¹´ë“œë†€ì´;
 
 import java.util.Scanner;
 
