@@ -1,4 +1,4 @@
-package SWEA_1860_Áø±âÀÇÃÖ°í±ŞºØ¾î»§;
+package SWEA_1860_ì§„ê¸°ì˜ìµœê³ ê¸‰ë¶•ì–´ë¹µ;
 
 import java.util.Scanner;
 
