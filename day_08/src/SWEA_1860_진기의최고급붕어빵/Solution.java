@@ -1,4 +1,4 @@
-package SWEA_1860_진기의최고급붕어빵;
+package SWEA_1860_진기의;
 
 import java.util.Scanner;
 
