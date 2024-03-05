@@ -2,7 +2,7 @@ package SWEA_4014_활주로건설;
 
 import java.util.Scanner;
 
-public class Solution {
+public class Solution_notsolved {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();

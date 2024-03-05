@@ -2,7 +2,7 @@ package boj_1018_체스판다시칠하기;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main_notsolve {
 	static int[][] arr;
 	
 	public static void main(String[] args) {
