@@ -2,78 +2,66 @@ package boj_1018_체스판다시칠하기;
 
 import java.util.Scanner;
 
-public class Main_notsolve {
-	static int[][] arr;
-	
+public class Main {
+	static char[][] arr;
+	static int min;
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int M = sc.nextInt();
-		arr = new int[N][M];
-		
+		arr = new char[N][M];
 		
 		for(int r=0; r<N; r++) {
 			String str = sc.next();
-			for(int c=0; c<M; c++) {
-				if(str.charAt(c) == 'W') {
-					arr[r][c] = 1;
-				} else {
-					arr[r][c] = 0;
-				}
+			arr[r] = str.toCharArray();
+		}
+		
+		min = Integer.MAX_VALUE;
+
+		for (int r = 0; r <= N - 8; r++) {
+			for (int c = 0; c <= M - 8; c++) {
+				createNewArr(r, c);
 			}
 		}
 		
-		int min = Integer.MAX_VALUE;
-		
-		for(int i=0; i<=N-8; i++) {
-			for(int j=0; j<=M-8; j++) {
-				int cnt = 0;
-				
-				System.out.println(cnt);
-				min = Math.min(min, cnt);
-				cnt = 1;
-				newArr[i][j] = ~newArr[i][j];
-				for(int r=i; r<i+7; r++) {
-					for(int c=j; c<j+7; c++) {
-						if(newArr[r][c] == newArr[r][c+1]) {
-							newArr[r][c+1] = ~newArr[r][c+1];
-							cnt++;
-						}
-						if(newArr[r][c] == newArr[r+1][c]) {
-							newArr[r+1][c] = ~newArr[r+1][c];
-							cnt++;
-						}
-					}
-				}
-				System.out.println(cnt);
-				min = Math.min(min, cnt);
-			}
-		}
 		System.out.println(min);
 		sc.close();
 	}
-	
-	public static void makeArr(int i, int j) {
-		int[][] newArr = new int[8][8];
-		int r_idx = 0;
-		int c_idx = 0;
-		for(int r=i; r<i+7; r++) {
-			for(int c=j; c<j+7; c++) {
-				newArr[r_idx][c_idx] = arr[r][c];
-				c_idx++;
+
+	public static void createNewArr(int r_idx, int c_idx) {
+		char[][] newArr = new char[8][8];
+		int r2 = 0;
+		int c2 = 0;
+
+		for (int r = r_idx; r < r_idx + 8; r++) {
+			c2=0;
+			for (int c = c_idx; c < c_idx + 8; c++) {
+				newArr[r2][c2] = arr[r][c];
+				c2++;
 			}
-			r_idx++;
+			r2++;
 		}
+		min = Math.min(dfs(newArr, 'W', 'B'), min);
+		min = Math.min(dfs(newArr, 'B', 'W'), min);
 	}
 	
-	public static void calculateCnt(int[][] newArr) {
+	public static int dfs(char[][] newArr, char ch, char ch_rv) {
 		int cnt = 0;
-		for(int r=0; r<7; r++) {
-			for(int c=0; c<7; c++) {
-				if(newArr[r][c] == newArr[r][c+1]) {
-					cnt
+		
+		for(int r=0; r<8; r++) {
+			for(int c=0; c<8; c++) {
+				if(c%2 == 0 && newArr[r][c] != ch) {
+					cnt++;
+				}
+				else if(c%2 == 1 && newArr[r][c] != ch_rv) {
+					cnt++;
 				}
 			}
+			char tmp = ch;
+			ch = ch_rv;
+			ch_rv = tmp;
 		}
+		return cnt;
 	}
 }

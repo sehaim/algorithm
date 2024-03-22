@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Solution {
 	static int N, S, cnt;
 	static int[] arr;
-	static boolean[] sel;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -16,7 +15,6 @@ public class Solution {
 			S = sc.nextInt();
 
 			arr = new int[N];
-			sel = new boolean[N];
 
 			for (int i = 0; i < N; i++) {
 				arr[i] = sc.nextInt();
