@@ -8,6 +8,7 @@
 | 2024-06-18 | 1764                     | [듣보잡](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1764_듣보잡)                         |
 | 2024-06-21 | 17219        | [비밀번호 찾기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17219_비밀번호찾기)      |
 | 2024-06-25 | 1260 <br> 2606 <br>  16928  <br> 11659  <br> 14940   | [DFS와 BFS](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1260_DFS와BFS)  <br>   [바이러스](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_2606_바이러스) <br> [뱀과 사다리 게임](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_16928_뱀과사다리게임) <br> [구간 합 구하기 4](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11659_구간합구하기4) <br> [쉬운 최단거리](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_14940_쉬운최단거리)|
+| 2024-06-26 | 7576 <br> 7569 <br>  1697   | [토마토](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_7576_토마토)  <br>   [토마토](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_7569_토마토) <br> [숨바꼭질](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1697_숨바꼭질)|
 
 
 240618 1764 듣보잡
@@ -21,6 +22,8 @@
 여행가자
 나이트의 이동
 
-dp -> lcs
+dp -> lcs, 1로 만들기 등
 
 우선 순위 큐 -> 1927, 이중 우선순위 큐
+
+dslr 풀기 (dequeue?)
