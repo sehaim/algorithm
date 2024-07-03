@@ -1,7 +1,8 @@
 package boj_9251_LCS;
 
 import java.io.*;
-import java.util.Arrays;
+import java.util.*;
+
 public class Main {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int[] dp;
@@ -46,3 +47,4 @@ public class Main {
         return dp(character, lcs , idx+1);
     }
 }
+
