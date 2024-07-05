@@ -15,44 +15,40 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			A[i] = Integer.parseInt(st.nextToken());
 		}
-		
-		int[][] dp = new int[2][N];
 
-//		int[] dp = new int[N];
-//		Arrays.fill(dp, 1);
-//
-//		int max = 1;
-//
-//		for (int i = 0; i < N; i++) {
-//			for (int j = 0; j < i; j++) {
-//				if (A[i] > A[j] && dp[j] + 1 > dp[i]) {
-//					dp[i] = dp[j] + 1;
-//					max = Math.max(max, dp[i]);
-////					System.out.println("nor");
-////					for (int m = 0; m < N; m++) {
-////						System.out.print(dp[m] + " ");
-////					}
-////					System.out.println();
-//				} else if (A[i] < A[j]) {
-//					int[] dp_de = new int[N];
-//					Arrays.fill(dp_de, dp[j]);
-//					for (int k = j; k < N; k++) {
-//						for (int l = j; l < k; l++) {
-//							if (A[k] < A[l] && dp_de[l] + 1 > dp_de[k]) {
-//								dp_de[k] = dp_de[l] + 1;
-//								max = Math.max(max, dp_de[k]);
-////								System.out.println("de");
-////								for (int m = 0; m < N; m++) {
-////									System.out.print(dp_de[m] + " ");
-////								}
-////								System.out.println();
-//							}
-//						}
-//					}
-//				}
-//			}
-//		}
+		int[] dp_inc = new int[N]; // 증가하는 수열
+		int[] dp_dec = new int[N]; // 감소하는 수열
 
-//		System.out.println(max);
+		// 증가하는 수열 DP
+		for (int i = 0; i < N; i++) {
+			dp_inc[i] = 1;
+
+			for (int j = 0; j < i; j++) {
+				if (A[j] < A[i] && dp_inc[j] + 1 > dp_inc[i]) {
+					dp_inc[i] = dp_inc[j] + 1;
+				}
+			}
+		}
+
+		// 감소하는 수열 DP
+		for (int i = N - 1; i >= 0; i--) {
+			dp_dec[i] = 1;
+
+			for (int j = N - 1; j > i; j--) {
+				if (A[j] < A[i] && dp_dec[j] + 1 > dp_dec[i]) {
+					dp_dec[i] = dp_dec[j] + 1;
+				}
+			}
+		}
+
+		int max = Integer.MIN_VALUE;
+
+		// (증가하는 수열 + 감소하는 수열)이 최대가 되는 인덱스의 값 출력
+		for (int i = 0; i < N; i++) {
+			max = Math.max(max, dp_inc[i] + dp_dec[i] - 1);
+		}
+
+		System.out.println(max);
+
 	}
 }

@@ -13,7 +13,8 @@
 | 2024-07-02 | 1003 <br> 11053 | [피보나치 함수](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1003_피보나치함수) <br> [가장 긴 증가하는 부분 수열](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11053_가장긴증가하는부분수열)|
 | 2024-07-03 | 9095 | [1, 2, 3 더하기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9095_123더하기)|
 | 2024-07-04 | 1463 | [1로 만들기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1463_1로만들기)|
-| 2024-07-05 | 1238 | [파티](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1238_파티)|
+| 2024-07-05 | 1238 <br> 11054| [파티](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1238_파티) <br> [가장 긴 바이토닉 부분 수열](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11054_가장긴바이토닉부분수열) |
+
 
 240618 1764 듣보잡
 
