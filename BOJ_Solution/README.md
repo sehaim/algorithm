@@ -14,6 +14,8 @@
 | 2024-07-03 | 9095 | [1, 2, 3 더하기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9095_123더하기)|
 | 2024-07-04 | 1463 | [1로 만들기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1463_1로만들기)|
 | 2024-07-05 | 1238 <br> 11054| [파티](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1238_파티) <br> [가장 긴 바이토닉 부분 수열](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11054_가장긴바이토닉부분수열) |
+| 2024-07-11 | 1167 | [트리의 지름](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1167_트리의지름)|
+| 2024-07-13 | 17386 | [선분 교차1](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17386_선분교차1)|
 
 
 240618 1764 듣보잡
