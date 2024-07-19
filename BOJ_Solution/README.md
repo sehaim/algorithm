@@ -17,6 +17,7 @@
 | 2024-07-11 | 1167 | [트리의 지름](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1167_트리의지름)|
 | 2024-07-13 | 17386 | [선분 교차1](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17386_선분교차1)|
 | 2024-07-17 | 11404 | [플로이드](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11404_플로이드)|
+| 2024-07-19 | 1922 | [네트워크 연결](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1922_네트워크연결)|
 
 240618 1764 듣보잡
 
