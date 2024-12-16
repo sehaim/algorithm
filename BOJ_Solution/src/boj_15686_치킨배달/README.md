@@ -1,6 +1,7 @@
 ## 📖 [치킨 배달](https://www.acmicpc.net/problem/15686)
 #### 📍 문제
 <img src="./assets/15686_치킨배달.png" width="600px" />
+
 ---
 #### 📍 풀이
 - 조합을 통해 폐업하지 않는 치킨집을 고른다.
