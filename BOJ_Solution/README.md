@@ -18,6 +18,10 @@
 | 2024-07-13 | 17386 | [선분 교차1](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17386_선분교차1)|
 | 2024-07-17 | 11404 | [플로이드](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11404_플로이드)|
 | 2024-07-19 | 1922 | [네트워크 연결](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1922_네트워크연결)|
+| 2024-07-25 | 1846 | [장기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1846_장기)|
+| 2024-08-08 | 1043 <br> 9466| [거짓말](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1043_거짓말) <br> [텀 프로젝트](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9466_텀프로젝트)|
+| 2024-08-21 | 1005 <br> 2342| [ACM Craft](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1005_ACMCraft) <br> [Dance Dance Revolution](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_2342_DanceDanceRevolution)|
+| 2024-12-16 | 15686 | [치킨 배달](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_15686_치킨배달)|
 
 240618 1764 듣보잡
 
@@ -39,3 +43,7 @@ dp -> lcs
 우선 순위 큐 -> 1927, 이중 우선순위 큐
 
 dequeue?
+
+세용액
+
+텀프로젝트, 거짓말, 장기 리드미
