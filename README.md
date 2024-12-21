@@ -1,7 +1,5 @@
 ## Algorithm
-알고리즘 문제 풀이 및 자료구조, 공부 내용 정리
-
-<br>
+### 👩🏻‍💻 알고리즘 문제 풀이 및 자료구조, 공부 내용 정리
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=seha7527)](https://solved.ac/seha7527/)
 ---
