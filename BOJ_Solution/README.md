@@ -1,7 +1,7 @@
 # 📄 Baekjoon Online Judge 문제 풀이
-## 🗓️ 2024
+## 💡 2024
 <details>
-<summary>📚</summary>
+<summary>📆 Show All</summary>
 
 | 날짜 | 문제 번호 | 문제 이름 |
 |:----------:|:----------:|:----------|
@@ -33,16 +33,16 @@
 
 </details>
 
-## 🗓️ 2025
+## 💡 2025
 <details>
-  <summary>January</summary>
+  <summary>📆 January</summary>
 
   | 날짜 | 문제 번호 | 문제 이름 |
   |:----------:|:----------:|:----------|
 
 </details>
 <details>
-  <summary>Fabruary</summary>
+  <summary>📆 Fabruary</summary>
 
   | 날짜 | 문제 번호 | 문제 이름 |
   |:----------:|:----------:|:----------|
