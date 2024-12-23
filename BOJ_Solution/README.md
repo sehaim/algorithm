@@ -29,7 +29,9 @@
 | 2024-12-18 | 30804 | [과일 탕후루](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_30804_과일탕후루) |
 | 2024-12-19 | 2178 | [미로 탐색](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_2178_미로탐색) |
 | 2024-12-20 | 10026 | [적록색약](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_10026_적록색약) |
-| 2024-12-26 | 1620<br>1931 | [나는야 포켓몬 마스터 이다솜](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1620_나는야포켓몬마스터이다솜)<br>[회의실 배정](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1931_회의실배정) |
+| 2024-12-21 | 1620<br>1931 | [나는야 포켓몬 마스터 이다솜](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1620_나는야포켓몬마스터이다솜)<br>[회의실 배정](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1931_회의실배정) |
+| 2024-12-22 | 14500 | [테트로미노](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_14500_테트로미노) |
+| 2024-12-23 | 17626 | [Four Squares](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17626_FourSquares) |
 
 </details>
 

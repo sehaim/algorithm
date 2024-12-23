@@ -14,7 +14,7 @@ public class Main {
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		
 		for(int i=0; i<N; i++) {
-			map.put(br.readLine(), 0);
+			map.put(br.readLine(), 0); // 듣도 못한 사람 map에 저장 
 		}
 		
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -22,14 +22,14 @@ public class Main {
 		
 		for(int i=0; i<M; i++) {
 			String str = br.readLine();
-			if(map.containsKey(str)) {
-				newMap.put(str, 0);
+			if(map.containsKey(str)) { // 보도 못한 사람이 듣도 못한 사람에도 속하면 
+				newMap.put(str, 0); // 새로운 map에 삽입 
 			}
 		}
 		
 		List<String> keySet = new ArrayList<String>(newMap.keySet());
 		
-		Collections.sort(keySet);
+		Collections.sort(keySet); // 사전순 정렬 
 		
 		bw.write(newMap.size() + "\n");
 		
