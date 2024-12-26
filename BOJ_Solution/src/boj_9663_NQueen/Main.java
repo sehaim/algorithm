@@ -19,7 +19,6 @@ public class Main {
 	
 	public static void search(int r_idx, int c_idx) {
 		for (int c=0; c<N; c++) {
-			if
 		}
 	}
 }

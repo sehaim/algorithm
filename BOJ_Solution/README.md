@@ -34,6 +34,8 @@
 | 2024-12-23 | 17626 | [Four Squares](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17626_FourSquares) |
 | 2024-12-24 | 5430 | [AC](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_5430_AC) |
 | 2024-12-25 | 11726 | [2xn 타일링](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11726_2xn타일링) |
+| 2024-12-26 | 11727<br>13414 | [2xn 타일링 2](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11727_2xn타일링2)<br>[수강신청](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_13414_수강신청) |
+| 2024-12-27 | 1074<br>9465 | [Z](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1074_Z)<br>[스티커](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9465_스티커) |
 
 </details>
 
