@@ -1,6 +1,6 @@
 ## 📖 [숨바꼭질 3](https://www.acmicpc.net/problem/13549)
 #### 📍 문제
-![img](./assets/13549_숨바꼭질3.png)
+<img src="./assets/13549_숨바꼭질3.png" width="600px" />
 ---
 #### 📍 풀이
 - BFS를 이용한 풀이
