@@ -4,6 +4,9 @@
 ### Eclipse ###
 .metadata
 bin/
+bin1/
+# **/bin/
+# **/bin1/
 tmp/
 *.tmp
 *.bak

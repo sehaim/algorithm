@@ -1,7 +1,7 @@
 # 📄 Baekjoon Online Judge 문제 풀이
 ## 💡 2024
 <details>
-<summary>📆 Show All</summary>
+<summary>📆 January ~ December </summary>
 
 | 날짜 | 문제 번호 | 문제 이름 |
 |:----------:|:----------:|:----------|
@@ -36,22 +36,55 @@
 | 2024-12-25 | 11726 | [2xn 타일링](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11726_2xn타일링) |
 | 2024-12-26 | 11727<br>13414 | [2xn 타일링 2](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11727_2xn타일링2)<br>[수강신청](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_13414_수강신청) |
 | 2024-12-27 | 9663| [N-Queen](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9663_N-Queen) |
-| 2024-12-29 | 1074<br>9465 | [Z](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1074_Z)<br>[스티커](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9465_스티커) |
+| 2024-12-28 | 1629| [곱셈](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1629_곱셈) |
+| 2024-12-29 | 1074 | [Z](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1074_Z) |
+| 2024-12-30 | 9461 | [파도반 수열](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9461_파도반수열) |
+| 2024-12-31 | 15652| [N과 M (4)](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_15652_N과M4) |
 
 </details>
 
 ## 💡 2025
 <details>
-  <summary>📆 January</summary>
+  <summary>📆 January ~ June</summary>
 
   | 날짜 | 문제 번호 | 문제 이름 |
   |:----------:|:----------:|:----------|
+  | 2025-01-01 | 1436 | [영화감독 숌](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1436_영화감독숌) |
+  | 2025-01-02 | 2630 | [색종이 만들기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_2630_색종이만들기) |
+  | 2025-01-03 | 2805 | [나무 자르기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_2805_나무자르기) |
+  | 2025-01-04 | 7662 | [이중 우선순위 큐](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_7662_이중우선순위큐) |
+  | 2025-01-05 | 1916 | [최소비용 구하기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1916_최소비용구하기) |
+  | 2025-01-06 | 1927<br>11279<br>18870 | [최소 힙](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1927_최소힙)<br>[최대 힙](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11279_최대힙)<br>[좌표 압축](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_18870_좌표압축) |
+  | 2025-01-07 | 11286 | [절댓값 힙](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11286_절댓값힙) |
+  | 2025-01-08 | 2096 | [내려가기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_2096_내려가기) |
+  | 2025-01-09 | 11403 | [경로 찾기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11403_경로찾기) |
+  | 2025-01-10 | 1541 | [잃어버린 괄호](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1541_잃어버린괄호) |
+  | 2025-01-11 | 5525 | [IOIOI](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_5525_IOIOI) |
+  | 2025-01-12 | 13549 | [숨바꼭질 3](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_13549_숨바꼭질3) |
+  | 2025-01-14 | 18111 | [마인크래프트](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_18111_마인크래프트) |
+  | 2025-01-15 | 21736 | [헌내기는 친구가 필요해](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_21736_헌내기는친구가필요해) |
+  | 2025-01-16 | 1389 | [케빈 베이컨의 6단계 법칙](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1389_케빈베이컨의6단계법칙) |
+  | 2025-01-18 | 6064<br>2609<br>11725 | [카잉 달력](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_6064_카잉달력)<br>[최대공약수와 최소공배수](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_2609_최대공약수와최소공배수)<br>[트리의 부모 찾기](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11725_트리의부모찾기) |
+  | 2025-01-19 | 15666 | [N과 M (12)](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_15666_N과M12) |
+  | 2025-01-20 | 16953 | [A -> B](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_16953_A_B) |
+  | 2025-01-21 | 1932<br>9251<br>2531 | [정수 삼각형](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1932_정수삼각형)<br>[LCS](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9251_LCS)<br>[회전 초밥](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_2531_회전초밥) |
+  | 2025-01-22 | 1991 | [트리 순회](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1991_트리순회) |
+  | 2025-01-25 | 11660 | [구간 합 구하기 5](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11660_구간합구하기5) |
+  | 2025-01-26 | 1011 | [Fly me to the Alpha Centauri](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1011_FlymetotheAlphaCentauri) |
+  | 2025-01-27 | 20922 | [겹치는 건 싫어](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_20922_겹치는건싫어) |
+  | 2025-01-30 | 12851 | [숨바꼭질 2](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_12851_숨바꼭질2) |
+  | 2025-01-13???? | 11286<br>9465 | [절댓값 힙](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11286_절댓값힙)<br>[스티커](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9465_스티커) |
+   | 2025-02-26 | 17070| [파이프 옮기기 1](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17070_파이프옮기기1) |
+   | 2025-02-27 | 17069| [파이프 옮기기 2](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17069_파이프옮기기2) |
 
+  
 </details>
 <details>
-  <summary>📆 Fabruary</summary>
+  <summary>📆 July ~ December</summary>
 
   | 날짜 | 문제 번호 | 문제 이름 |
   |:----------:|:----------:|:----------|
+   | 2025-03-09 | 5639 <br> 13913 | [이진 검색 트리](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_5639_이진검색트리) <br> [숨바꼭질 4](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_13913_숨바꼭질4)|
+   | 2025-03-11 | 1987| [알파벳](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1987_알파벳) |
   
 </details>
