@@ -1,7 +1,7 @@
 # 📄 Baekjoon Online Judge 문제 풀이
-## 💡 2024
+
 <details>
-<summary>📆 January ~ December </summary>
+<summary>📆  2024</summary>
 
 | 날짜 | 문제 번호 | 문제 이름 |
 |:----------:|:----------:|:----------|
@@ -43,9 +43,8 @@
 
 </details>
 
-## 💡 2025
 <details>
-  <summary>📆 January ~ June</summary>
+  <summary>📆  2025</summary>
 
   | 날짜 | 문제 번호 | 문제 이름 |
   |:----------:|:----------:|:----------|
@@ -76,15 +75,5 @@
   | 2025-01-13???? | 11286<br>9465 | [절댓값 힙](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_11286_절댓값힙)<br>[스티커](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_9465_스티커) |
    | 2025-02-26 | 17070| [파이프 옮기기 1](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17070_파이프옮기기1) |
    | 2025-02-27 | 17069| [파이프 옮기기 2](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_17069_파이프옮기기2) |
-
-  
-</details>
-<details>
-  <summary>📆 July ~ December</summary>
-
-  | 날짜 | 문제 번호 | 문제 이름 |
-  |:----------:|:----------:|:----------|
-   | 2025-03-09 | 5639 <br> 13913 | [이진 검색 트리](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_5639_이진검색트리) <br> [숨바꼭질 4](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_13913_숨바꼭질4)|
+   | 2025-03-09??? | 5639 <br> 13913 | [이진 검색 트리](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_5639_이진검색트리) <br> [숨바꼭질 4](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_13913_숨바꼭질4)|
    | 2025-03-11 | 1987| [알파벳](https://github.com/sehaim/algorithm/tree/master/BOJ_Solution/src/boj_1987_알파벳) |
-  
-</details>
