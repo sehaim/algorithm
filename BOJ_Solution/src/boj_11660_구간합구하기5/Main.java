@@ -4,49 +4,44 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		StringTokenizer st = new StringTokenizer(br.readLine());
 
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-		int[][] arr = new int[N][N];
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
 
-		for (int r = 0; r < N; r++) {
-			st = new StringTokenizer(br.readLine());
+        int[][] arr = new int[N + 1][N + 1]; // edge case 처리를 위해 N+1 크기로 선언
 
-			for (int c = 0; c < N; c++) {
-				if (c == 0) {
-					arr[r][c] = Integer.parseInt(st.nextToken());
-				} else {
-					arr[r][c] = arr[r][c - 1] + Integer.parseInt(st.nextToken());
-				}
-			}
-		}
+        for (int r = 1; r <= N; r++) {
+            st = new StringTokenizer(br.readLine());
 
-		for (int m = 0; m < M; m++) {
-			st = new StringTokenizer(br.readLine());
+            for (int c = 1; c <= N; c++) {
+                int num = Integer.parseInt(st.nextToken());
 
-			int x1 = Integer.parseInt(st.nextToken()) - 1;
-			int y1 = Integer.parseInt(st.nextToken()) - 1;
-			int x2 = Integer.parseInt(st.nextToken()) - 1;
-			int y2 = Integer.parseInt(st.nextToken()) - 1;
+                // (1, 1)부터 (r, c)까지의 누적 합 계산
+                arr[r][c] = num + arr[r][c - 1] + arr[r - 1][c] - arr[r - 1][c - 1];
+            }
+        }
 
-			int sum = 0;
+        for (int i = 0; i < M; i++) {
+            st = new StringTokenizer(br.readLine());
 
-			for (int r = x1; r <= x2; r++) {
-				if (y1 > 0) {
-					sum += arr[r][y2] - arr[r][y1 - 1];
-				} else {
-					sum += arr[r][y2];
-				}
-			}
+            // 시작 지점
+            int x1 = Integer.parseInt(st.nextToken());
+            int y1 = Integer.parseInt(st.nextToken());
+            // 끝나는 지점
+            int x2 = Integer.parseInt(st.nextToken());
+            int y2 = Integer.parseInt(st.nextToken());
 
-			bw.write(sum + "\n");
-		}
+            // 구간 합 계산
+            int sum = arr[x2][y2] - (arr[x1 - 1][y2] + arr[x2][y1 - 1] - arr[x1 - 1][y1 - 1]);
 
-		bw.flush();
-	}
+            bw.write(sum + "\n");
+        }
+
+        bw.flush();
+    }
 }
